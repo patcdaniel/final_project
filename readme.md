@@ -1,7 +1,5 @@
-
 Sample call: 
-'''python
-
+```python
 import datetime as dt
 
 montereyBayBouysIds =  {"MBARI_M1" : 46092,
@@ -13,4 +11,4 @@ montereyBayBouysIds =  {"MBARI_M1" : 46092,
 bouy = montereyBayBouysIds['MBARI_M1']                        
 startDate = dt.datetime(2015,1,1)
 data = get_nc_dods(startDate,endDate=dt.datetime(2015,12,1),nbdcId=bouy)
-'''
+```
